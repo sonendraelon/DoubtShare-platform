@@ -1,0 +1,25 @@
+.navbar {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(241, 101, 110, 0.8); 
+    color: blueviolet;
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar:hover {
+    background-color: rgb(18, 185, 74); 
+}
